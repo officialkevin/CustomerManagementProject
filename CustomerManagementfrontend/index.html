@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="center">
+
+
+        <!-- creating login page -->
+
+        <div class="LoginPage" id="LoginPage">
+            
+           
+
+            <form action="" method="post" class="form">
+                
+                <label for="">Login page</label>
+                <input type="text" id="emailid" class="inputBox" placeholder="enter the emailid">
+                <br>
+                <input type="password" id="passwordid" class="inputBox" placeholder="enter the password">
+                <br>
+                <input type="button" value="Submit" onclick="clicked()" class="submitbutton">
+
+            </form>
+           
+
+        </div>
+  <!-- creating login page -->
+
+
+
+        <!-- creating customer list table -->
+        <div class="CustomerListScreen"  id="customerlistscreen">
+            <table>
+                <thead>
+                       <h1 >Customer List</h1>
+                  <tr>
+                  
+                    <button onclick="AddCustomer()" class="addCustomer" id="open-popup">Add Customer</button>
+                    <button class="search">Search</button>
+        
+                  </tr>
+                  <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Address</th>
+                    <th>City</th>
+                    <th>State</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Actions</th>
+                    <th></th>
+                  </tr>
+                </thead>
+
+
+
+                <tbody>
+                  <tr>
+                    <td>Saksh</td>
+                    <td>Sharma</td>
+                    <td>Hno 1</td>
+                    <td>Delhi</td>
+                    <td>Delhi</td>
+                    <td>sam@gmail.com</td>
+                    <td>10258</td>
+                    <td><button>Delete</button></td>
+                    <td><button>Edit</button></td>
+                  </tr>
+                  </tbody>
+
+
+
+
+              </table>
+
+        </div>
+ <!-- creating customer list table -->
+
+
+
+
+ <!-- creating form -->
+ <div class="customerdetailform" id="popupform">
+ <h2>Customer Details Form</h2>
+ <form id="customerDetailsForm">
+
+  
+
+
+    <input type="text" id="uuid" name="uuid" placeholder="id" required><br>
+    <input type="text" id="first_name" name="first_name" placeholder="First Name" required><br>
+    <input type="text" id="last_name" name="last_name" placeholder="Last Name" required><br>
+    <input type="text" id="street" name="street" placeholder="street" required><br>
+    <input type="text" id="address" name="address" placeholder="Address"><br>
+    <input type="text" id="city" name="city" placeholder="City"><br>
+    <input type="text" id="state" name="state" placeholder="State"><br>
+    <input type="email" id="email" name="email" placeholder="Email" required><br>
+    <input type="tel" id="phone" name="phone" placeholder="Phone"><br>
+    <button type="button" onclick="submitForm()">Submit</button>
+</form>
+
+
+</div>
+
+
+
+
+    </div>
+
+
+
+
+
+<script src="index.js"></script>
+</body>
+</html>

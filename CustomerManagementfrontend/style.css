@@ -1,0 +1,126 @@
+
+/* Resetting margin and padding for all elements */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Styling for the login page container */
+.LoginPage {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 250px;
+}
+
+/* Centering content on the page */
+.center {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styling for the login form */
+.form {
+    justify-content: space-around;
+}
+
+/* Styling for input boxes (email and password) */
+.inputBox {
+    padding: 20px;
+    width: 300px;
+    outline: none;
+    margin-bottom: 30px;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+/* Styling for the submit button */
+.submitbutton ,.addCustomer,.search{
+    padding: 20px;
+    width: 125px;
+    color: white;
+    background-color: #0085fc;
+    border: none;
+    border-radius: 10px;
+}
+.addCustomer,.search{
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.search{
+    background-color: skyblue;
+
+}
+
+
+
+
+.CustomerListScreen{
+    display: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* create table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  th[colspan="8"] {
+    text-align: center;
+  }
+  
+  .actions {
+    text-align: center;
+  }
+  
+  button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+
+
+
+
+
+
+
+  .customerdetailform{
+    display: none;
+
+  }
+
+ 
